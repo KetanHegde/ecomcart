@@ -380,7 +380,7 @@ body {
   background: white;
   width: 100%;
   max-width: 450px;
-  height: 100vh;
+  height: 100dvh;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
