@@ -17,7 +17,7 @@ A full-stack e-commerce shopping cart application built with **React**, **Node.j
 
 ---
 
-## 🚀 Quick Start (Manual Setup)
+## 🚀 Quick Start
 
 ### Prerequisites
 
@@ -31,8 +31,8 @@ A full-stack e-commerce shopping cart application built with **React**, **Node.j
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
-   cd ecommerce-cart
+   git clone https://github.com/KetanHegde/ecomcart.git
+   cd ecomcart
    ```
 
 2. **Create `.env` files**  
@@ -57,17 +57,6 @@ A full-stack e-commerce shopping cart application built with **React**, **Node.j
    - 🌐 Frontend: http://localhost:3000  
    - 🔧 Backend API: http://localhost:5000  
    - 📊 API Health: http://localhost:5000/health
-
----
-
-## 📊 Sample Data
-
-The application comes pre-loaded with 8 sample products including:
-- Wireless Headphones (15% off)
-- Smart Watch (₹30 off)
-- Bluetooth Speaker (20% off)
-- Mechanical Keyboard (₹20 off)
-- And more...
 
 ---
 
@@ -183,49 +172,9 @@ ecommerce-cart/
 │   │   └── index.js
 │   ├── package.json
 │   └── .env.example
-├── .env.example
 └── README.md
 ```
 
 ---
-
-## 🔐 Security Notes
-
-**For Development:**
-- Default credentials are fine for local testing
-
-**For Production:**
-1. Change MongoDB credentials in `.env`
-2. Use strong passwords (min 12 characters, mixed case, numbers, symbols)
-3. Don’t commit `.env` files to version control
-4. Use environment-specific configurations
-5. Enable HTTPS/SSL
-6. Configure CORS properly
-7. Add rate limiting
-8. Implement authentication/authorization
-
----
-
-## 📄 License
-
-MIT License — Feel free to use this project for learning or commercial purposes.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
----
-
-## 📧 Support
-
-For issues or questions:  
-- Create a GitHub issue  
-- Contact: support@yourapp.com
-
----
-
-**Made with ❤️ using React, Node.js, and MongoDB**  
 
 **Happy Shopping! 🛍️**
