@@ -6,23 +6,62 @@ A full-stack e-commerce shopping cart application built with **React**, **Node.j
 
 ## ✨ Features
 
-- 🎨 Modern, responsive UI with React 18  
-- 🛍️ Product catalog with images and descriptions  
-- 💰 Discount system (percentage & flat discounts)  
-- 🛒 Shopping cart with real-time updates  
-- 📦 Stock management and inventory tracking  
-- 🚚 Smart delivery charges (Free shipping above ₹500)  
-- ✅ Order processing and confirmation  
-- 📱 Mobile-friendly responsive design  
+- 🎨 Modern, responsive UI with React 18
+- 🛍️ Product catalog with images and descriptions
+- 💰 Discount system (percentage & flat discounts)
+- 🛒 Shopping cart with real-time updates
+- 📦 Stock management and inventory tracking
+- 🚚 Smart delivery charges (Free shipping above ₹500)
+- ✅ Order processing and confirmation
+- 📱 Mobile-friendly responsive design
 
 ---
+
+## 📸 Screenshots
+
+<div align="center">
+
+### 🏠 Home Page
+
+A clean, responsive landing page displaying featured products.  
+<img src="./screenshots/homepage.jpg" alt="Home Page" width="600">
+
+---
+
+### 🛒 Cart Page
+
+Shows selected products with quantity controls, applied discounts, and an estimated total.  
+<img src="./screenshots/cart.jpg" alt="Cart Page" width="600">
+
+---
+
+### 💳 Checkout Page
+
+Allows users to enter shipping details, review their order summary, and proceed to payment securely.  
+<img src="./screenshots/checkout.jpg" alt="Checkout Page" width="600">
+
+---
+
+### 💰 Payment Processing
+
+Displays the secure payment gateway in action, ensuring safe transaction handling.  
+<img src="./screenshots/payment-processing.jpg" alt="Payment Processing" width="600">
+
+---
+
+### 🧾 Receipt Page
+
+Shows the final purchase receipt with order details, transaction ID, and download/print options.  
+<img src="./screenshots/receipt.jpg" alt="Receipt Page" width="600">
+
+## </div>
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
-- **Node.js** (v18 or higher)  
-- **MongoDB** (running locally or on a remote server like MongoDB Atlas)  
+- **Node.js** (v18 or higher)
+- **MongoDB** (running locally or on a remote server like MongoDB Atlas)
 - **npm** (Node Package Manager)
 
 ---
@@ -30,6 +69,7 @@ A full-stack e-commerce shopping cart application built with **React**, **Node.j
 ### 🧩 Installation Steps
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/KetanHegde/ecomcart.git
    cd ecomcart
@@ -39,6 +79,7 @@ A full-stack e-commerce shopping cart application built with **React**, **Node.j
    Create `.env` files in both `backend` and `frontend` directories as shown in their respective `.env.example` files.
 
 3. **Backend Setup**
+
    ```bash
    cd backend
    npm install
@@ -47,6 +88,7 @@ A full-stack e-commerce shopping cart application built with **React**, **Node.j
    ```
 
 4. **Frontend Setup**
+
    ```bash
    cd ../frontend
    npm install
@@ -54,8 +96,8 @@ A full-stack e-commerce shopping cart application built with **React**, **Node.j
    ```
 
 5. **Access the Application**
-   - 🌐 Frontend: http://localhost:3000  
-   - 🔧 Backend API: http://localhost:5000  
+   - 🌐 Frontend: http://localhost:3000
+   - 🔧 Backend API: http://localhost:5000
    - 📊 API Health: http://localhost:5000/health
 
 ---
@@ -63,12 +105,14 @@ A full-stack e-commerce shopping cart application built with **React**, **Node.j
 ## 🔍 API Endpoints
 
 ### Products
-- `GET /api/products` - Get all products  
+
+- `GET /api/products` - Get all products
 - `GET /api/products/:id` - Get single product
 
 ### Cart
-- `GET /api/cart?userId=guest` - Get cart  
-- `POST /api/cart` - Add item to cart  
+
+- `GET /api/cart?userId=guest` - Get cart
+- `POST /api/cart` - Add item to cart
   ```json
   {
     "productId": "product_id",
@@ -76,11 +120,12 @@ A full-stack e-commerce shopping cart application built with **React**, **Node.j
     "userId": "guest"
   }
   ```
-- `PUT /api/cart/:itemId` - Update cart item quantity  
+- `PUT /api/cart/:itemId` - Update cart item quantity
 - `DELETE /api/cart/:itemId?userId=guest` - Remove item from cart
 
 ### Checkout
-- `POST /api/checkout` - Process order  
+
+- `POST /api/checkout` - Process order
   ```json
   {
     "customerName": "John Doe",
@@ -109,6 +154,7 @@ A full-stack e-commerce shopping cart application built with **React**, **Node.j
 ## 🧱 Technology Stack
 
 **Frontend:**
+
 - React 18
 - Context API for state management
 - Axios for API calls
@@ -116,12 +162,14 @@ A full-stack e-commerce shopping cart application built with **React**, **Node.j
 - CSS3 for styling
 
 **Backend:**
+
 - Node.js 18
 - Express.js
 - Mongoose ODM
 - REST API architecture
 
 **Database:**
+
 - MongoDB 7.0
 
 ---
