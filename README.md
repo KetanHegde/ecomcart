@@ -11,7 +11,7 @@ A full-stack e-commerce shopping cart application built with **React**, **Node.j
 - 💰 Discount system (percentage & flat discounts)
 - 🛒 Shopping cart with real-time updates
 - 📦 Stock management and inventory tracking
-- 🚚 Smart delivery charges (Free shipping above ₹500)
+- 🚚 Smart delivery charges (Free shipping above ₹1000)
 - ✅ Order processing and confirmation
 - 📱 Mobile-friendly responsive design
 
@@ -198,6 +198,7 @@ ecommerce-cart/
 │   ├── middleware/
 │   │   └── errorHandler.js
 │   ├── package.json
+|   ├── .env.example
 │   └── server.js
 ├── frontend/
 │   ├── public/
